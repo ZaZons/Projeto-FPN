@@ -1,10 +1,10 @@
 {
-  "id" : "criarGestor",
-  "name" : "criarGestor",
+  "id" : "identificarCliente",
+  "name" : "identificarCliente",
   "type" : "form",
-  "uuid" : "433e4d02-ff8a-4fb0-88cf-8642dfd9c62a",
+  "uuid" : "7a032df0-d48c-48d0-adde-568e2427851f",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1718285255009,
+  "lastUpdate" : 1718284412695,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "dbc9d4b3-3e4d-41df-9de4-b6e2e4c6c769",
+        "reference" : "cfeb4e34-9606-400f-bc47-64998a59e986",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +53,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "9db4ae74-b286-4ce9-a484-6988dc41237a",
+              "reference" : "88199821-38ca-4a29-b0ff-a66680b0d5fa",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -101,7 +101,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "083e3b36-521d-4e41-80ca-c60c367ccfbc",
+              "reference" : "1d70d6b0-2fae-4c62-98b2-d06781e59aff",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -117,7 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "361877c0-d0ae-429b-8254-25f06ba57828",
+        "reference" : "0fb07940-44fc-4747-93af-95d272a39cec",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -126,7 +126,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "2b15edf5-40f4-44de-9784-8749fbc931f1",
+          "reference" : "eb8ce308-1cb3-4160-b49a-8c8d6dca0696",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -154,7 +154,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Gestor"
+                    "value" : "Oportunidade Input"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -165,7 +165,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "55973a05-be00-46bf-b43c-398f476163c2",
+                "reference" : "d87298a6-a5dc-4c59-9891-91dd84f20346",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -197,7 +197,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "8d30b993-ffae-4f90-b72d-265c470eb115",
+                "reference" : "cda09511-80ff-4344-9c78-87cc17e39a55",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -237,7 +237,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Name"
+                          "value" : "Cliente"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -252,78 +252,14 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "gestor.name"
+                          "value" : "formInput.oportunidadeInput.cliente"
                         },
                         "required" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : true
                         }
                       },
-                      "reference" : "4c465700-2c23-404f-9db8-58aeabd42419",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Unidade_negocio"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "gestor.unidade_negocio"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "84dc30d9-9136-4d55-a9d5-b32b212c2782",
+                      "reference" : "84c6b62f-a006-4e04-ae78-656652554fc4",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -407,7 +343,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "ed0e1880-f321-4813-9e10-8accc15b0c60",
+                "reference" : "df1554c5-a387-4a5b-9c2d-55d3f7b24fb3",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -459,7 +395,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "2d36b6e4-ab6f-4e75-a899-29dfba5933cb",
+                "reference" : "46f4bb09-a511-4937-8b83-7c0f1212f46f",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -475,6 +411,17 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "formInput" : {
+      "type" : "json",
+      "value" : [
+        "{\r",
+        "  \"oportunidadeInput\" : {\r",
+        "    \"cliente\" : \"\"\r",
+        "  }\r",
+        "}"
       ],
       "exposed" : false
     },
@@ -496,14 +443,8 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.gestor ){",
-        "\treturn {",
-        "\t\t//map gestor variable to expected task contract input",
-        "\t\tgestorInput: {",
-        "\t\t\tname: $data.gestor.name !== undefined ? $data.gestor.name : null,",
-        "\t\t\tunidade_negocio: $data.gestor.unidade_negocio !== undefined ? $data.gestor.unidade_negocio : null",
-        "\t\t}",
-        "\t}",
+        "return {",
+        "\toportunidadeInput: $data.formInput.oportunidadeInput",
         "}"
       ],
       "exposed" : false
@@ -512,13 +453,6 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}/context"
-      ],
-      "exposed" : false
-    },
-    "gestor" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.gestor_ref.link}}"
       ],
       "exposed" : false
     },
@@ -532,16 +466,16 @@
   },
   "assets" : [
     {
-      "id" : "de50b087-8031-4f25-96e0-6fb21571493b",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "a9fcbe80-d505-4f60-b4e7-d37eb012896f",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "b597f42d-310d-4260-bdc6-2a03388b1358",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "6d41a889-79c8-4ea1-9db0-7cf91052ebc3",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     }

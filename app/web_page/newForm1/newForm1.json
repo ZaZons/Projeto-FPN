@@ -1,0 +1,2226 @@
+{
+  "id" : "newForm1",
+  "name" : "newForm1",
+  "type" : "form",
+  "uuid" : "a64c6a85-5dfd-45e5-a142-669ac4b1eb8d",
+  "modelVersion" : "2.6",
+  "lastUpdate" : 1718285122541,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : { },
+        "reference" : "a89e3866-6d18-482e-9268-a2b65c2ba8ae",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 1"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "{{ task.displayName }}"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "25dd1690-3ad3-4111-aee1-18f2cd85a051",
+              "hasValidationError" : false,
+              "id" : "pbTitle",
+              "description" : ""
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "allowHtml" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "label" : {
+                  "type" : "interpolation"
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "{{ task.displayDescription }}"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "78ea6720-da82-489c-b110-282dcc98c19e",
+              "hasValidationError" : false,
+              "id" : "pbText",
+              "description" : ""
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type" : "formContainer",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "3ab28b46-4d0c-4f60-b0e9-31c98622ebe0",
+        "hasValidationError" : false,
+        "id" : "pbFormContainer",
+        "container" : {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : { },
+          "reference" : "02733e16-2818-4a30-baaa-9c23eb0a866e",
+          "hasValidationError" : false,
+          "id" : "pbContainer",
+          "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Fds Input"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "7bfbc365-526e-45fe-b571-af6ab29ec68a",
+                "hasValidationError" : false,
+                "id" : "pbTitle",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "container",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "repeatedCollection" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "ff3c68f1-7392-4bae-a221-449dcd720f92",
+                "hasValidationError" : false,
+                "id" : "pbContainer",
+                "description" : "Auto generate ui for business object \"com.company.model.Cliente\"",
+                "rows" : [
+                  [
+                    {
+                      "type" : "container",
+                      "dimension" : {
+                        "xs" : 12
+                      },
+                      "propertyValues" : { },
+                      "reference" : "eeb037cf-387b-4ae7-b16a-d05a64f6b5a6",
+                      "hasValidationError" : false,
+                      "id" : "pbContainer",
+                      "description" : "\"com.company.model.Cliente\" object from \"cliente\" variable",
+                      "rows" : [
+                        [
+                          {
+                            "type" : "component",
+                            "dimension" : {
+                              "md" : 12,
+                              "sm" : 12,
+                              "xs" : 12,
+                              "lg" : 12
+                            },
+                            "propertyValues" : {
+                              "hidden" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "level" : {
+                                "type" : "constant",
+                                "value" : "Level 4"
+                              },
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "text" : {
+                                "type" : "interpolation",
+                                "value" : "Cliente"
+                              },
+                              "alignment" : {
+                                "type" : "constant",
+                                "value" : "left"
+                              },
+                              "dimension" : {
+                                "type" : "constant",
+                                "value" : 12
+                              }
+                            },
+                            "reference" : "52213684-6a80-488a-abe5-53fc735fe737",
+                            "hasValidationError" : false,
+                            "id" : "pbTitle",
+                            "description" : ""
+                          }
+                        ],
+                        [
+                          {
+                            "type" : "component",
+                            "dimension" : {
+                              "md" : 12,
+                              "sm" : 12,
+                              "xs" : 12,
+                              "lg" : 12
+                            },
+                            "propertyValues" : {
+                              "headers" : {
+                                "type" : "constant",
+                                "value" : [
+                                  "Nome"
+                                ]
+                              },
+                              "allowHtml" : {
+                                "type" : "constant",
+                                "value" : true
+                              },
+                              "hidden" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "caption" : {
+                                "type" : "constant"
+                              },
+                              "condensed" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "bordered" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "selectedRow" : {
+                                "type" : "variable",
+                                "value" : "cliente_selected"
+                              },
+                              "columnsKey" : {
+                                "type" : "constant",
+                                "value" : [
+                                  "nome"
+                                ]
+                              },
+                              "dimension" : {
+                                "type" : "constant",
+                                "value" : 12
+                              },
+                              "content" : {
+                                "type" : "expression",
+                                "value" : "cliente"
+                              },
+                              "zebraStriping" : {
+                                "type" : "constant",
+                                "value" : true
+                              }
+                            },
+                            "reference" : "ec86ca07-ceda-47f3-9146-b9fbe5c4d59e",
+                            "hasValidationError" : false,
+                            "id" : "pbTable",
+                            "description" : ""
+                          }
+                        ],
+                        [
+                          {
+                            "type" : "container",
+                            "dimension" : {
+                              "md" : 1,
+                              "sm" : 1,
+                              "xs" : 1,
+                              "lg" : 1
+                            },
+                            "propertyValues" : {
+                              "repeatedCollection" : {
+                                "type" : "variable"
+                              },
+                              "hidden" : {
+                                "type" : "expression",
+                                "value" : "!cliente_selected"
+                              },
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "dimension" : {
+                                "type" : "constant",
+                                "value" : 1
+                              }
+                            },
+                            "reference" : "3eebd1c8-3ed9-4728-bc0d-04b55b2fa550",
+                            "hasValidationError" : false,
+                            "id" : "pbContainer",
+                            "rows" : [
+                              [ ]
+                            ]
+                          },
+                          {
+                            "type" : "container",
+                            "dimension" : {
+                              "md" : 11,
+                              "sm" : 11,
+                              "xs" : 11,
+                              "lg" : 11
+                            },
+                            "propertyValues" : {
+                              "repeatedCollection" : {
+                                "type" : "variable"
+                              },
+                              "hidden" : {
+                                "type" : "expression",
+                                "value" : "!cliente_selected"
+                              },
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "dimension" : {
+                                "type" : "constant",
+                                "value" : 11
+                              }
+                            },
+                            "reference" : "39d54860-fde1-49be-be6d-1695d302ab85",
+                            "hasValidationError" : false,
+                            "id" : "pbContainer",
+                            "description" : "Display \"Cliente\" details when a line is selected in the table above",
+                            "rows" : [
+                              [
+                                {
+                                  "type" : "component",
+                                  "dimension" : {
+                                    "md" : 12,
+                                    "sm" : 12,
+                                    "xs" : 12,
+                                    "lg" : 12
+                                  },
+                                  "propertyValues" : {
+                                    "labelHidden" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "hidden" : {
+                                      "type" : "expression",
+                                      "value" : "!cliente_selected.nome"
+                                    },
+                                    "labelPosition" : {
+                                      "type" : "constant",
+                                      "value" : "top"
+                                    },
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "labelWidth" : {
+                                      "type" : "constant",
+                                      "value" : 1
+                                    },
+                                    "readOnly" : {
+                                      "type" : "constant",
+                                      "value" : true
+                                    },
+                                    "label" : {
+                                      "type" : "interpolation",
+                                      "value" : "Nome"
+                                    },
+                                    "placeholder" : {
+                                      "type" : "constant"
+                                    },
+                                    "type" : {
+                                      "type" : "constant",
+                                      "value" : "text"
+                                    },
+                                    "dimension" : {
+                                      "type" : "constant",
+                                      "value" : 12
+                                    },
+                                    "value" : {
+                                      "type" : "variable",
+                                      "value" : "cliente_selected.nome"
+                                    },
+                                    "required" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    }
+                                  },
+                                  "reference" : "5c989b2d-7d61-48bf-88dc-1bae1ebfad00",
+                                  "hasValidationError" : false,
+                                  "id" : "pbInput",
+                                  "description" : ""
+                                }
+                              ],
+                              [
+                                {
+                                  "type" : "container",
+                                  "dimension" : {
+                                    "xs" : 12
+                                  },
+                                  "propertyValues" : { },
+                                  "reference" : "470c819e-197c-4439-9606-ea75ece0e7d2",
+                                  "hasValidationError" : false,
+                                  "id" : "pbContainer",
+                                  "description" : "\"com.company.model.Gestor\" object from \"cliente_gestor_selected.gestor\" variable",
+                                  "rows" : [
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "hidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "level" : {
+                                            "type" : "constant",
+                                            "value" : "Level 4"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "text" : {
+                                            "type" : "interpolation",
+                                            "value" : "Gestor"
+                                          },
+                                          "alignment" : {
+                                            "type" : "constant",
+                                            "value" : "left"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          }
+                                        },
+                                        "reference" : "205cbffd-8a87-424f-a1e9-62c5f5ae9f33",
+                                        "hasValidationError" : false,
+                                        "id" : "pbTitle",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "container",
+                                        "dimension" : {
+                                          "md" : 1,
+                                          "sm" : 1,
+                                          "xs" : 1,
+                                          "lg" : 1
+                                        },
+                                        "propertyValues" : {
+                                          "repeatedCollection" : {
+                                            "type" : "variable"
+                                          },
+                                          "hidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          }
+                                        },
+                                        "reference" : "6e5eb94d-5f49-4013-adeb-bb88278c5005",
+                                        "hasValidationError" : false,
+                                        "id" : "pbContainer",
+                                        "rows" : [
+                                          [ ]
+                                        ]
+                                      },
+                                      {
+                                        "type" : "container",
+                                        "dimension" : {
+                                          "md" : 11,
+                                          "sm" : 11,
+                                          "xs" : 11,
+                                          "lg" : 11
+                                        },
+                                        "propertyValues" : {
+                                          "repeatedCollection" : {
+                                            "type" : "variable"
+                                          },
+                                          "hidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 11
+                                          }
+                                        },
+                                        "reference" : "978f0260-e940-4844-8cb6-ba99d2dad3d4",
+                                        "hasValidationError" : false,
+                                        "id" : "pbContainer",
+                                        "description" : "Display \"Gestor\" details when a line is selected in the table above",
+                                        "rows" : [
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!cliente_gestor.name"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Name"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "cliente_gestor.name"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "90bbf09f-a76b-4561-bfd4-bc02e0ac2240",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!cliente_gestor.unidade_negocio"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Unidade_negocio"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "cliente_gestor.unidade_negocio"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "2d24cc2e-bc8e-417c-82af-3f2f5533b42b",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ]
+                                        ]
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "type" : "container",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "repeatedCollection" : {
+                    "type" : "variable"
+                  }
+                },
+                "reference" : "8b850b14-9838-4d79-b51c-93aa0d8bf3bf",
+                "hasValidationError" : false,
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "container",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "repeatedCollection" : {
+                          "type" : "variable"
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "906d6f14-f379-44bb-8932-c8ad1bc6007e",
+                      "hasValidationError" : false,
+                      "id" : "pbContainer",
+                      "description" : "Auto generate ui for business object \"com.company.model.Oportunidade\"",
+                      "rows" : [
+                        [
+                          {
+                            "type" : "container",
+                            "dimension" : {
+                              "xs" : 12
+                            },
+                            "propertyValues" : { },
+                            "reference" : "6535cd80-47db-4169-8856-2f32ebb586ef",
+                            "hasValidationError" : false,
+                            "id" : "pbContainer",
+                            "description" : "\"com.company.model.Oportunidade\" object from \"oportunidade_1\" variable",
+                            "rows" : [
+                              [
+                                {
+                                  "type" : "component",
+                                  "dimension" : {
+                                    "md" : 12,
+                                    "sm" : 12,
+                                    "xs" : 12,
+                                    "lg" : 12
+                                  },
+                                  "propertyValues" : {
+                                    "hidden" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "level" : {
+                                      "type" : "constant",
+                                      "value" : "Level 4"
+                                    },
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "text" : {
+                                      "type" : "interpolation",
+                                      "value" : "Oportunidade"
+                                    },
+                                    "alignment" : {
+                                      "type" : "constant",
+                                      "value" : "left"
+                                    },
+                                    "dimension" : {
+                                      "type" : "constant",
+                                      "value" : 12
+                                    },
+                                    "allowHTML" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    }
+                                  },
+                                  "reference" : "b6ff81b1-b1a0-4de2-8523-37905aee259c",
+                                  "hasValidationError" : false,
+                                  "id" : "pbTitle",
+                                  "description" : ""
+                                }
+                              ],
+                              [
+                                {
+                                  "type" : "component",
+                                  "dimension" : {
+                                    "md" : 12,
+                                    "sm" : 12,
+                                    "xs" : 12,
+                                    "lg" : 12
+                                  },
+                                  "propertyValues" : {
+                                    "headers" : {
+                                      "type" : "constant",
+                                      "value" : [
+                                        "Origem",
+                                        "Tipo",
+                                        "Novo_cliente"
+                                      ]
+                                    },
+                                    "allowHtml" : {
+                                      "type" : "constant",
+                                      "value" : true
+                                    },
+                                    "hidden" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "caption" : {
+                                      "type" : "constant"
+                                    },
+                                    "condensed" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "bordered" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "selectedRow" : {
+                                      "type" : "variable",
+                                      "value" : "oportunidade_1_selected"
+                                    },
+                                    "columnsKey" : {
+                                      "type" : "constant",
+                                      "value" : [
+                                        "origem",
+                                        "tipo",
+                                        "novo_cliente"
+                                      ]
+                                    },
+                                    "dimension" : {
+                                      "type" : "constant",
+                                      "value" : 12
+                                    },
+                                    "content" : {
+                                      "type" : "expression",
+                                      "value" : "oportunidade_1"
+                                    },
+                                    "zebraStriping" : {
+                                      "type" : "constant",
+                                      "value" : true
+                                    }
+                                  },
+                                  "reference" : "0d04882b-7256-4ec3-961b-006dade17727",
+                                  "hasValidationError" : false,
+                                  "id" : "pbTable",
+                                  "description" : ""
+                                }
+                              ],
+                              [
+                                {
+                                  "type" : "container",
+                                  "dimension" : {
+                                    "md" : 1,
+                                    "sm" : 1,
+                                    "xs" : 1,
+                                    "lg" : 1
+                                  },
+                                  "propertyValues" : {
+                                    "repeatedCollection" : {
+                                      "type" : "variable"
+                                    },
+                                    "hidden" : {
+                                      "type" : "expression",
+                                      "value" : "!oportunidade_1_selected"
+                                    },
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "dimension" : {
+                                      "type" : "constant",
+                                      "value" : 1
+                                    }
+                                  },
+                                  "reference" : "5377f140-6254-49ca-aee8-78697884373c",
+                                  "hasValidationError" : false,
+                                  "id" : "pbContainer",
+                                  "rows" : [
+                                    [ ]
+                                  ]
+                                },
+                                {
+                                  "type" : "container",
+                                  "dimension" : {
+                                    "md" : 11,
+                                    "sm" : 11,
+                                    "xs" : 11,
+                                    "lg" : 11
+                                  },
+                                  "propertyValues" : {
+                                    "repeatedCollection" : {
+                                      "type" : "variable"
+                                    },
+                                    "hidden" : {
+                                      "type" : "expression",
+                                      "value" : "!oportunidade_1_selected"
+                                    },
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "dimension" : {
+                                      "type" : "constant",
+                                      "value" : 11
+                                    }
+                                  },
+                                  "reference" : "57989dcb-8a38-46a4-864a-237fae5d9ffb",
+                                  "hasValidationError" : false,
+                                  "id" : "pbContainer",
+                                  "description" : "Display \"Oportunidade\" details when a line is selected in the table above",
+                                  "rows" : [
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!oportunidade_1_selected.origem"
+                                          },
+                                          "labelPosition" : {
+                                            "type" : "constant",
+                                            "value" : "top"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "labelWidth" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          },
+                                          "readOnly" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Origem"
+                                          },
+                                          "placeholder" : {
+                                            "type" : "constant"
+                                          },
+                                          "type" : {
+                                            "type" : "constant",
+                                            "value" : "text"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          },
+                                          "value" : {
+                                            "type" : "variable",
+                                            "value" : "oportunidade_1_selected.origem"
+                                          },
+                                          "required" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          }
+                                        },
+                                        "reference" : "08b9b926-f99a-436e-b92c-c3f369c880d9",
+                                        "hasValidationError" : false,
+                                        "id" : "pbInput",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!oportunidade_1_selected.tipo"
+                                          },
+                                          "labelPosition" : {
+                                            "type" : "constant",
+                                            "value" : "top"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "labelWidth" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          },
+                                          "readOnly" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Tipo"
+                                          },
+                                          "placeholder" : {
+                                            "type" : "constant"
+                                          },
+                                          "type" : {
+                                            "type" : "constant",
+                                            "value" : "text"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          },
+                                          "value" : {
+                                            "type" : "variable",
+                                            "value" : "oportunidade_1_selected.tipo"
+                                          },
+                                          "required" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          }
+                                        },
+                                        "reference" : "a6ef404c-c7e0-46b6-b61a-a547d93ba396",
+                                        "hasValidationError" : false,
+                                        "id" : "pbInput",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!oportunidade_1_selected.novo_cliente"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "disabled" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Novo_cliente"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          },
+                                          "value" : {
+                                            "type" : "variable",
+                                            "value" : "oportunidade_1_selected.novo_cliente"
+                                          }
+                                        },
+                                        "reference" : "2b07a49e-6982-4213-9299-ca7fc5aed7dd",
+                                        "hasValidationError" : false,
+                                        "id" : "pbCheckbox",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "container",
+                                        "dimension" : {
+                                          "xs" : 12
+                                        },
+                                        "propertyValues" : { },
+                                        "reference" : "1eafadfe-0212-4b31-84ba-94bf33650ccb",
+                                        "hasValidationError" : false,
+                                        "id" : "pbContainer",
+                                        "description" : "\"com.company.model.Cliente\" object from \"oportunidade_1_cliente_selected.cliente\" variable",
+                                        "rows" : [
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "hidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "level" : {
+                                                  "type" : "constant",
+                                                  "value" : "Level 4"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "text" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Cliente"
+                                                },
+                                                "alignment" : {
+                                                  "type" : "constant",
+                                                  "value" : "left"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                }
+                                              },
+                                              "reference" : "e4fe1dee-5357-4fae-b87e-5143b44a9459",
+                                              "hasValidationError" : false,
+                                              "id" : "pbTitle",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "container",
+                                              "dimension" : {
+                                                "md" : 1,
+                                                "sm" : 1,
+                                                "xs" : 1,
+                                                "lg" : 1
+                                              },
+                                              "propertyValues" : {
+                                                "repeatedCollection" : {
+                                                  "type" : "variable"
+                                                },
+                                                "hidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                }
+                                              },
+                                              "reference" : "5bf213cf-c5a3-49de-8295-e559327a0921",
+                                              "hasValidationError" : false,
+                                              "id" : "pbContainer",
+                                              "rows" : [
+                                                [ ]
+                                              ]
+                                            },
+                                            {
+                                              "type" : "container",
+                                              "dimension" : {
+                                                "md" : 11,
+                                                "sm" : 11,
+                                                "xs" : 11,
+                                                "lg" : 11
+                                              },
+                                              "propertyValues" : {
+                                                "repeatedCollection" : {
+                                                  "type" : "variable"
+                                                },
+                                                "hidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 11
+                                                }
+                                              },
+                                              "reference" : "0f914a72-4a1d-408b-b848-f2857694086d",
+                                              "hasValidationError" : false,
+                                              "id" : "pbContainer",
+                                              "description" : "Display \"Cliente\" details when a line is selected in the table above",
+                                              "rows" : [
+                                                [
+                                                  {
+                                                    "type" : "component",
+                                                    "dimension" : {
+                                                      "md" : 12,
+                                                      "sm" : 12,
+                                                      "xs" : 12,
+                                                      "lg" : 12
+                                                    },
+                                                    "propertyValues" : {
+                                                      "labelHidden" : {
+                                                        "type" : "constant",
+                                                        "value" : false
+                                                      },
+                                                      "hidden" : {
+                                                        "type" : "expression",
+                                                        "value" : "!oportunidade_1_cliente.nome"
+                                                      },
+                                                      "labelPosition" : {
+                                                        "type" : "constant",
+                                                        "value" : "top"
+                                                      },
+                                                      "cssClasses" : {
+                                                        "type" : "constant",
+                                                        "value" : ""
+                                                      },
+                                                      "labelWidth" : {
+                                                        "type" : "constant",
+                                                        "value" : 1
+                                                      },
+                                                      "readOnly" : {
+                                                        "type" : "constant",
+                                                        "value" : true
+                                                      },
+                                                      "label" : {
+                                                        "type" : "interpolation",
+                                                        "value" : "Nome"
+                                                      },
+                                                      "placeholder" : {
+                                                        "type" : "constant"
+                                                      },
+                                                      "type" : {
+                                                        "type" : "constant",
+                                                        "value" : "text"
+                                                      },
+                                                      "dimension" : {
+                                                        "type" : "constant",
+                                                        "value" : 12
+                                                      },
+                                                      "value" : {
+                                                        "type" : "variable",
+                                                        "value" : "oportunidade_1_cliente.nome"
+                                                      },
+                                                      "required" : {
+                                                        "type" : "constant",
+                                                        "value" : false
+                                                      }
+                                                    },
+                                                    "reference" : "1dd137c0-74c4-4886-acbe-5f01c8995a6d",
+                                                    "hasValidationError" : false,
+                                                    "id" : "pbInput",
+                                                    "description" : ""
+                                                  }
+                                                ],
+                                                [
+                                                  {
+                                                    "type" : "container",
+                                                    "dimension" : {
+                                                      "xs" : 12
+                                                    },
+                                                    "propertyValues" : { },
+                                                    "reference" : "d844466c-5dad-4a9a-b07c-432295b6368e",
+                                                    "hasValidationError" : false,
+                                                    "id" : "pbContainer",
+                                                    "description" : "\"com.company.model.Gestor\" object from \"oportunidade_1_cliente_gestor_selected.gestor\" variable",
+                                                    "rows" : [
+                                                      [
+                                                        {
+                                                          "type" : "component",
+                                                          "dimension" : {
+                                                            "md" : 12,
+                                                            "sm" : 12,
+                                                            "xs" : 12,
+                                                            "lg" : 12
+                                                          },
+                                                          "propertyValues" : {
+                                                            "hidden" : {
+                                                              "type" : "constant",
+                                                              "value" : false
+                                                            },
+                                                            "level" : {
+                                                              "type" : "constant",
+                                                              "value" : "Level 4"
+                                                            },
+                                                            "cssClasses" : {
+                                                              "type" : "constant",
+                                                              "value" : ""
+                                                            },
+                                                            "text" : {
+                                                              "type" : "interpolation",
+                                                              "value" : "Gestor"
+                                                            },
+                                                            "alignment" : {
+                                                              "type" : "constant",
+                                                              "value" : "left"
+                                                            },
+                                                            "dimension" : {
+                                                              "type" : "constant",
+                                                              "value" : 12
+                                                            }
+                                                          },
+                                                          "reference" : "f2c6de4b-1583-437a-95cc-452674702a98",
+                                                          "hasValidationError" : false,
+                                                          "id" : "pbTitle",
+                                                          "description" : ""
+                                                        }
+                                                      ],
+                                                      [
+                                                        {
+                                                          "type" : "container",
+                                                          "dimension" : {
+                                                            "md" : 1,
+                                                            "sm" : 1,
+                                                            "xs" : 1,
+                                                            "lg" : 1
+                                                          },
+                                                          "propertyValues" : {
+                                                            "repeatedCollection" : {
+                                                              "type" : "variable"
+                                                            },
+                                                            "hidden" : {
+                                                              "type" : "constant",
+                                                              "value" : false
+                                                            },
+                                                            "cssClasses" : {
+                                                              "type" : "constant",
+                                                              "value" : ""
+                                                            },
+                                                            "dimension" : {
+                                                              "type" : "constant",
+                                                              "value" : 1
+                                                            }
+                                                          },
+                                                          "reference" : "0943d52b-0d6c-4c7e-a5e7-0b69b295b12e",
+                                                          "hasValidationError" : false,
+                                                          "id" : "pbContainer",
+                                                          "rows" : [
+                                                            [ ]
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type" : "container",
+                                                          "dimension" : {
+                                                            "md" : 11,
+                                                            "sm" : 11,
+                                                            "xs" : 11,
+                                                            "lg" : 11
+                                                          },
+                                                          "propertyValues" : {
+                                                            "repeatedCollection" : {
+                                                              "type" : "variable"
+                                                            },
+                                                            "hidden" : {
+                                                              "type" : "constant",
+                                                              "value" : false
+                                                            },
+                                                            "cssClasses" : {
+                                                              "type" : "constant",
+                                                              "value" : ""
+                                                            },
+                                                            "dimension" : {
+                                                              "type" : "constant",
+                                                              "value" : 11
+                                                            }
+                                                          },
+                                                          "reference" : "99a2b4ac-2654-45f2-95de-764c164f0f56",
+                                                          "hasValidationError" : false,
+                                                          "id" : "pbContainer",
+                                                          "description" : "Display \"Gestor\" details when a line is selected in the table above",
+                                                          "rows" : [
+                                                            [
+                                                              {
+                                                                "type" : "component",
+                                                                "dimension" : {
+                                                                  "md" : 12,
+                                                                  "sm" : 12,
+                                                                  "xs" : 12,
+                                                                  "lg" : 12
+                                                                },
+                                                                "propertyValues" : {
+                                                                  "labelHidden" : {
+                                                                    "type" : "constant",
+                                                                    "value" : false
+                                                                  },
+                                                                  "hidden" : {
+                                                                    "type" : "expression",
+                                                                    "value" : "!oportunidade_1_cliente_gestor.name"
+                                                                  },
+                                                                  "labelPosition" : {
+                                                                    "type" : "constant",
+                                                                    "value" : "top"
+                                                                  },
+                                                                  "cssClasses" : {
+                                                                    "type" : "constant",
+                                                                    "value" : ""
+                                                                  },
+                                                                  "labelWidth" : {
+                                                                    "type" : "constant",
+                                                                    "value" : 1
+                                                                  },
+                                                                  "readOnly" : {
+                                                                    "type" : "constant",
+                                                                    "value" : true
+                                                                  },
+                                                                  "label" : {
+                                                                    "type" : "interpolation",
+                                                                    "value" : "Name"
+                                                                  },
+                                                                  "placeholder" : {
+                                                                    "type" : "constant"
+                                                                  },
+                                                                  "type" : {
+                                                                    "type" : "constant",
+                                                                    "value" : "text"
+                                                                  },
+                                                                  "dimension" : {
+                                                                    "type" : "constant",
+                                                                    "value" : 12
+                                                                  },
+                                                                  "value" : {
+                                                                    "type" : "variable",
+                                                                    "value" : "oportunidade_1_cliente_gestor.name"
+                                                                  },
+                                                                  "required" : {
+                                                                    "type" : "constant",
+                                                                    "value" : false
+                                                                  }
+                                                                },
+                                                                "reference" : "77b66a28-364c-4a0a-88cf-85bbf6208b0f",
+                                                                "hasValidationError" : false,
+                                                                "id" : "pbInput",
+                                                                "description" : ""
+                                                              }
+                                                            ],
+                                                            [
+                                                              {
+                                                                "type" : "container",
+                                                                "dimension" : {
+                                                                  "xs" : 12
+                                                                },
+                                                                "propertyValues" : { },
+                                                                "reference" : "e162c0ac-8901-4262-9d79-12a7c6f6b2e2",
+                                                                "hasValidationError" : false,
+                                                                "id" : "pbContainer",
+                                                                "description" : "\"com.company.model.UnidadeNegocio\" object from \"oportunidade_1_cliente_gestor_unidade_negocio_selected.unidade_negocio\" variable",
+                                                                "rows" : [
+                                                                  [
+                                                                    {
+                                                                      "type" : "component",
+                                                                      "dimension" : {
+                                                                        "md" : 12,
+                                                                        "sm" : 12,
+                                                                        "xs" : 12,
+                                                                        "lg" : 12
+                                                                      },
+                                                                      "propertyValues" : {
+                                                                        "hidden" : {
+                                                                          "type" : "constant",
+                                                                          "value" : false
+                                                                        },
+                                                                        "level" : {
+                                                                          "type" : "constant",
+                                                                          "value" : "Level 4"
+                                                                        },
+                                                                        "cssClasses" : {
+                                                                          "type" : "constant",
+                                                                          "value" : ""
+                                                                        },
+                                                                        "text" : {
+                                                                          "type" : "interpolation",
+                                                                          "value" : "UnidadeNegocio"
+                                                                        },
+                                                                        "alignment" : {
+                                                                          "type" : "constant",
+                                                                          "value" : "left"
+                                                                        },
+                                                                        "dimension" : {
+                                                                          "type" : "constant",
+                                                                          "value" : 12
+                                                                        }
+                                                                      },
+                                                                      "reference" : "e434ff85-6658-472a-8a10-875b23e439d9",
+                                                                      "hasValidationError" : false,
+                                                                      "id" : "pbTitle",
+                                                                      "description" : ""
+                                                                    }
+                                                                  ],
+                                                                  [
+                                                                    {
+                                                                      "type" : "container",
+                                                                      "dimension" : {
+                                                                        "md" : 1,
+                                                                        "sm" : 1,
+                                                                        "xs" : 1,
+                                                                        "lg" : 1
+                                                                      },
+                                                                      "propertyValues" : {
+                                                                        "repeatedCollection" : {
+                                                                          "type" : "variable"
+                                                                        },
+                                                                        "hidden" : {
+                                                                          "type" : "constant",
+                                                                          "value" : false
+                                                                        },
+                                                                        "cssClasses" : {
+                                                                          "type" : "constant",
+                                                                          "value" : ""
+                                                                        },
+                                                                        "dimension" : {
+                                                                          "type" : "constant",
+                                                                          "value" : 1
+                                                                        }
+                                                                      },
+                                                                      "reference" : "1be71b59-2688-4418-a6c1-c661649b0975",
+                                                                      "hasValidationError" : false,
+                                                                      "id" : "pbContainer",
+                                                                      "rows" : [
+                                                                        [ ]
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "type" : "container",
+                                                                      "dimension" : {
+                                                                        "md" : 11,
+                                                                        "sm" : 11,
+                                                                        "xs" : 11,
+                                                                        "lg" : 11
+                                                                      },
+                                                                      "propertyValues" : {
+                                                                        "repeatedCollection" : {
+                                                                          "type" : "variable"
+                                                                        },
+                                                                        "hidden" : {
+                                                                          "type" : "constant",
+                                                                          "value" : false
+                                                                        },
+                                                                        "cssClasses" : {
+                                                                          "type" : "constant",
+                                                                          "value" : ""
+                                                                        },
+                                                                        "dimension" : {
+                                                                          "type" : "constant",
+                                                                          "value" : 11
+                                                                        }
+                                                                      },
+                                                                      "reference" : "31b1c36b-dad9-49f4-95f7-6d77ba3ad2c3",
+                                                                      "hasValidationError" : false,
+                                                                      "id" : "pbContainer",
+                                                                      "description" : "Display \"UnidadeNegocio\" details when a line is selected in the table above",
+                                                                      "rows" : [
+                                                                        [
+                                                                          {
+                                                                            "type" : "component",
+                                                                            "dimension" : {
+                                                                              "md" : 12,
+                                                                              "sm" : 12,
+                                                                              "xs" : 12,
+                                                                              "lg" : 12
+                                                                            },
+                                                                            "propertyValues" : {
+                                                                              "labelHidden" : {
+                                                                                "type" : "constant",
+                                                                                "value" : false
+                                                                              },
+                                                                              "hidden" : {
+                                                                                "type" : "expression",
+                                                                                "value" : "!oportunidade_1_cliente_gestor_unidade_negocio.nome"
+                                                                              },
+                                                                              "labelPosition" : {
+                                                                                "type" : "constant",
+                                                                                "value" : "top"
+                                                                              },
+                                                                              "cssClasses" : {
+                                                                                "type" : "constant",
+                                                                                "value" : ""
+                                                                              },
+                                                                              "labelWidth" : {
+                                                                                "type" : "constant",
+                                                                                "value" : 1
+                                                                              },
+                                                                              "readOnly" : {
+                                                                                "type" : "constant",
+                                                                                "value" : true
+                                                                              },
+                                                                              "label" : {
+                                                                                "type" : "interpolation",
+                                                                                "value" : "Nome"
+                                                                              },
+                                                                              "placeholder" : {
+                                                                                "type" : "constant"
+                                                                              },
+                                                                              "type" : {
+                                                                                "type" : "constant",
+                                                                                "value" : "text"
+                                                                              },
+                                                                              "dimension" : {
+                                                                                "type" : "constant",
+                                                                                "value" : 12
+                                                                              },
+                                                                              "value" : {
+                                                                                "type" : "variable",
+                                                                                "value" : "oportunidade_1_cliente_gestor_unidade_negocio.nome"
+                                                                              },
+                                                                              "required" : {
+                                                                                "type" : "constant",
+                                                                                "value" : false
+                                                                              }
+                                                                            },
+                                                                            "reference" : "c816db16-8cfc-46ca-b5f3-0456eb16c88e",
+                                                                            "hasValidationError" : false,
+                                                                            "id" : "pbInput",
+                                                                            "description" : ""
+                                                                          }
+                                                                        ]
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                ]
+                                                              }
+                                                            ]
+                                                          ]
+                                                        }
+                                                      ]
+                                                    ]
+                                                  }
+                                                ]
+                                              ]
+                                            }
+                                          ]
+                                        ]
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "container",
+                                        "dimension" : {
+                                          "xs" : 12
+                                        },
+                                        "propertyValues" : { },
+                                        "reference" : "6c0d7c93-e18c-4dbf-86ee-53ae41831e6a",
+                                        "hasValidationError" : false,
+                                        "id" : "pbContainer",
+                                        "description" : "\"com.company.model.UnidadeNegocio\" object from \"oportunidade_1_unidade_negocio_selected.unidade_negocio\" variable",
+                                        "rows" : [
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "hidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "level" : {
+                                                  "type" : "constant",
+                                                  "value" : "Level 4"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "text" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "UnidadeNegocio"
+                                                },
+                                                "alignment" : {
+                                                  "type" : "constant",
+                                                  "value" : "left"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                }
+                                              },
+                                              "reference" : "5c283c04-d8b0-4b68-8f33-01b290d5ee70",
+                                              "hasValidationError" : false,
+                                              "id" : "pbTitle",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "container",
+                                              "dimension" : {
+                                                "md" : 1,
+                                                "sm" : 1,
+                                                "xs" : 1,
+                                                "lg" : 1
+                                              },
+                                              "propertyValues" : {
+                                                "repeatedCollection" : {
+                                                  "type" : "variable"
+                                                },
+                                                "hidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                }
+                                              },
+                                              "reference" : "b9a82fa6-7f63-4973-86d5-ef0224e874b7",
+                                              "hasValidationError" : false,
+                                              "id" : "pbContainer",
+                                              "rows" : [
+                                                [ ]
+                                              ]
+                                            },
+                                            {
+                                              "type" : "container",
+                                              "dimension" : {
+                                                "md" : 11,
+                                                "sm" : 11,
+                                                "xs" : 11,
+                                                "lg" : 11
+                                              },
+                                              "propertyValues" : {
+                                                "repeatedCollection" : {
+                                                  "type" : "variable"
+                                                },
+                                                "hidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 11
+                                                }
+                                              },
+                                              "reference" : "24b4d96a-5b35-45e2-af00-33d5c045209a",
+                                              "hasValidationError" : false,
+                                              "id" : "pbContainer",
+                                              "description" : "Display \"UnidadeNegocio\" details when a line is selected in the table above",
+                                              "rows" : [
+                                                [
+                                                  {
+                                                    "type" : "component",
+                                                    "dimension" : {
+                                                      "md" : 12,
+                                                      "sm" : 12,
+                                                      "xs" : 12,
+                                                      "lg" : 12
+                                                    },
+                                                    "propertyValues" : {
+                                                      "labelHidden" : {
+                                                        "type" : "constant",
+                                                        "value" : false
+                                                      },
+                                                      "hidden" : {
+                                                        "type" : "expression",
+                                                        "value" : "!oportunidade_1_unidade_negocio.nome"
+                                                      },
+                                                      "labelPosition" : {
+                                                        "type" : "constant",
+                                                        "value" : "top"
+                                                      },
+                                                      "cssClasses" : {
+                                                        "type" : "constant",
+                                                        "value" : ""
+                                                      },
+                                                      "labelWidth" : {
+                                                        "type" : "constant",
+                                                        "value" : 1
+                                                      },
+                                                      "readOnly" : {
+                                                        "type" : "constant",
+                                                        "value" : true
+                                                      },
+                                                      "label" : {
+                                                        "type" : "interpolation",
+                                                        "value" : "Nome"
+                                                      },
+                                                      "placeholder" : {
+                                                        "type" : "constant"
+                                                      },
+                                                      "type" : {
+                                                        "type" : "constant",
+                                                        "value" : "text"
+                                                      },
+                                                      "dimension" : {
+                                                        "type" : "constant",
+                                                        "value" : 12
+                                                      },
+                                                      "value" : {
+                                                        "type" : "variable",
+                                                        "value" : "oportunidade_1_unidade_negocio.nome"
+                                                      },
+                                                      "required" : {
+                                                        "type" : "constant",
+                                                        "value" : false
+                                                      }
+                                                    },
+                                                    "reference" : "3cc37554-baa1-48d6-bd70-a1ffb9dcbf71",
+                                                    "hasValidationError" : false,
+                                                    "id" : "pbInput",
+                                                    "description" : ""
+                                                  }
+                                                ]
+                                              ]
+                                            }
+                                          ]
+                                        ]
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "removeItem" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "primary"
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Submit"
+                  },
+                  "dataToSend" : {
+                    "type" : "expression",
+                    "value" : "formOutput"
+                  },
+                  "dataFromError" : {
+                    "type" : "variable",
+                    "value" : "formOutput._submitError"
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant"
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation",
+                    "value" : "/bonita"
+                  },
+                  "action" : {
+                    "type" : "constant",
+                    "value" : "Submit task"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
+                  "valueToAdd" : {
+                    "type" : "expression"
+                  },
+                  "disabled" : {
+                    "type" : "expression",
+                    "value" : "$form.$invalid"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "center"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "3f7b4882-08ee-4d63-9028-60157679158d",
+                "hasValidationError" : false,
+                "id" : "pbButton",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "allowHtml" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "hidden" : {
+                    "type" : "expression",
+                    "value" : "!formOutput._submitError.message"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : "alert alert-danger col-lg-6 col-lg-offset-3"
+                  },
+                  "label" : {
+                    "type" : "interpolation"
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "<strong>Debug message</strong>\n<br/>\n{{formOutput._submitError.message}}\n{{submit_errors_list}}"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "e40ddda4-db17-4de2-8b40-69c91b6b79f8",
+                "hasValidationError" : false,
+                "id" : "pbText",
+                "description" : ""
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  ],
+  "variables" : {
+    "task" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "formInput" : {
+      "type" : "json",
+      "value" : [
+        "{\r",
+        "  \"fdsInput\" : {\r",
+        "    \"oportunidade\" : { }\r",
+        "  }\r",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "submit_errors_list" : {
+      "type" : "expression",
+      "value" : [
+        "if($data.formOutput && $data.formOutput._submitError && $data.formOutput._submitError.explanations){",
+        "\tconst liElements = $data.formOutput._submitError.explanations",
+        "\t\t.filter(cause => cause !== null)",
+        "\t\t.map(cause => \"<li>\" + cause + \"</li>\")",
+        "\t\t.join('');",
+        "\tif(liElements){",
+        "\t\treturn \"<ul>\" + liElements + \"</ul>\";",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : [
+        "return {",
+        "\tfdsInput: $data.formInput.fdsInput",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}/context"
+      ],
+      "exposed" : false
+    },
+    "taskId" : {
+      "type" : "urlparameter",
+      "value" : [
+        "id"
+      ],
+      "exposed" : false
+    },
+    "origemStr" : {
+      "type" : "constant",
+      "value" : [
+        "123"
+      ],
+      "exposed" : false
+    },
+    "oportunidade" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"find [com.company.model.Oportunidade]\",\"businessObjectName\":\"undefined\",\"query\":{\"name\":\"find\",\"displayName\":\"find\"},\"id\":\"com.company.model.Oportunidade\",\"filters\":[],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "oportunidade_cliente_gestor" : {
+      "type" : "url",
+      "value" : [
+        "{{oportunidade_cliente|lazyRef:'gestor'}}"
+      ],
+      "exposed" : false
+    },
+    "oportunidade_cliente_gestor_unidade_negocio" : {
+      "type" : "url",
+      "value" : [
+        "{{oportunidade_cliente_gestor|lazyRef:'unidade_negocio'}}"
+      ],
+      "exposed" : false
+    },
+    "oportunidade_cliente" : {
+      "type" : "url",
+      "value" : [
+        "{{oportunidade_selected|lazyRef:'cliente'}}"
+      ],
+      "exposed" : false
+    },
+    "oportunidade_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    },
+    "oportunidade_unidade_negocio" : {
+      "type" : "url",
+      "value" : [
+        "{{oportunidade_selected|lazyRef:'unidade_negocio'}}"
+      ],
+      "exposed" : false
+    },
+    "oportunidade_1" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByOrigem [com.company.model.Oportunidade]\",\"businessObjectName\":\"Oportunidade\",\"query\":{\"name\":\"findByOrigem\",\"displayName\":\"findByOrigem\"},\"id\":\"com.company.model.Oportunidade\",\"filters\":[{\"name\":\"origem\",\"type\":\"STRING\",\"collection\":false,\"value\":\"{origemStr}\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "oportunidade_1_cliente" : {
+      "type" : "url",
+      "value" : [
+        "{{oportunidade_1_selected|lazyRef:'cliente'}}"
+      ],
+      "exposed" : false
+    },
+    "oportunidade_1_unidade_negocio" : {
+      "type" : "url",
+      "value" : [
+        "{{oportunidade_1_selected|lazyRef:'unidade_negocio'}}"
+      ],
+      "exposed" : false
+    },
+    "oportunidade_1_cliente_gestor_unidade_negocio" : {
+      "type" : "url",
+      "value" : [
+        "{{oportunidade_1_cliente_gestor|lazyRef:'unidade_negocio'}}"
+      ],
+      "exposed" : false
+    },
+    "oportunidade_1_cliente_gestor" : {
+      "type" : "url",
+      "value" : [
+        "{{oportunidade_1_cliente|lazyRef:'gestor'}}"
+      ],
+      "exposed" : false
+    },
+    "oportunidade_1_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    },
+    "cliente" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"find [com.company.model.Cliente]\",\"businessObjectName\":\"Cliente\",\"query\":{\"name\":\"find\",\"displayName\":\"find\"},\"id\":\"com.company.model.Cliente\",\"filters\":[],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "cliente_gestor" : {
+      "type" : "url",
+      "value" : [
+        "{{cliente_selected|lazyRef:'gestor'}}"
+      ],
+      "exposed" : false
+    },
+    "cliente_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    }
+  },
+  "assets" : [
+    {
+      "id" : "1fc1280a-3ece-43be-bf69-5fe4fe5cd94a",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "97cd43cc-6407-45c2-aa3f-ffe6c934a9ac",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}
