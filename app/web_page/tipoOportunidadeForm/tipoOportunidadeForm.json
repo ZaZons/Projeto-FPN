@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "074fdd6b-e9ab-4c47-8c82-d67ce4837399",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1717163332181,
+  "lastUpdate" : 1717765402805,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -272,59 +272,6 @@
                       "reference" : "cf144b25-6d2d-47ab-a462-04f945272ac3",
                       "hasValidationError" : false,
                       "id" : "pbSelect"
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Novo negócio"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "oportunidade_venda.novo_negocio"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "c515fd43-710b-4c26-afc0-fb23839aca29",
-                      "hasValidationError" : false,
-                      "id" : "pbCheckbox",
-                      "description" : ""
                     }
                   ]
                 ]

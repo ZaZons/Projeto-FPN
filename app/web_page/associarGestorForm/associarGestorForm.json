@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "600c1b92-919c-4d76-9e62-25551dd0d66a",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1717241972172,
+  "lastUpdate" : 1717784725427,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -533,7 +533,7 @@
     "gestor_query" : {
       "type" : "url",
       "value" : [
-        "../API/bdm/businessData/com.company.model.Gestor?q=find&p=0&c=99"
+        "../API/bdm/businessData/com.company.model.Gestor?q=findByUnidadeNegocio&p=0&c=99&f=\"un=redes\""
       ],
       "exposed" : false
     },
